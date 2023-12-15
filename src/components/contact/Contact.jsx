@@ -2,7 +2,6 @@ import React from 'react'
 import "./contact.css"
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
-import { FaWhatsapp } from "react-icons/fa6";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
