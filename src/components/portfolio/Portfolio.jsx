@@ -2,8 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/BatC_no_bg.png'
 import IMG2 from '../../assets/AdoptMwa_no_bg.png'
-import PortfolioCarousel from './PortfolioCarousel.jsx'
-
+import SimpleSlider from './PortfolioSlider'
 
 const Portfolio = () => {
   return (
@@ -14,6 +13,7 @@ const Portfolio = () => {
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG1} alt="" />
+            {/* <SimpleSlider /> */}
           </div>
           <h3>BatC</h3>
           <div className='portfolio__item-cta'>

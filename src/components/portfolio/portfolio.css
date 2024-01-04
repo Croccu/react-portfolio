@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
-  background-color: aquamarine;
 }
 
 .portfolio__item {
@@ -14,11 +13,9 @@
 }
 
 .portfolio__item:hover {
-  /* border-color: var(--color-primary-2);
-  background: transparent; */
-  scale: 1.2;
-  position: relative;
-  z-index: 1;
+  border-color: var(--color-primary-2);
+  background: transparent;
+  scale: 1.05;
 }
 
 .portfolio__item-image {
