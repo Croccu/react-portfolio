@@ -32,8 +32,12 @@ const About = () => {
               <small>2</small>
             </article>
           </div>
-
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam necessitatibus ducimus veritatis error eligendi, aliquam, soluta odit laborum blanditiis accusantium repellendus architecto ex asperiores voluptates obcaecati magni labore corporis repudiandae?</p>
+          <p>
+            I am a full stack web developer with a background in KYC & AML and Verifications. Additionally I've done some business development and sales work. I am an avid learner and a strong team player with a great work ethic. I take pride in what I do and am constantly looking to improve myself and my skills.
+          </p>
+          <p>
+            In my free time I try to do outdoor activities as much as possible and I'm a big fan of sci-fi and fantasy movies. And I do game a bit also.
+          </p>
           <a href="#contact" className='btn btn-primary'> Contact me</a>
         </div>
       </div>
