@@ -18,34 +18,34 @@ class AdoptMwaCarousel extends Component {
 
     render() {
         return (
-            <Carousel>
-                <div>
-                    <img src={HomepageImage} alt='homepage'/>
-                    <p className="legend">Homepage</p>
-                </div>
+            <Carousel infiniteLoop centerMode centerSlidePercentage={33} swipeable >
                 <div>
                     <img src={IndexImage} alt='index' />
-                    <p className="legend">Index view</p>
+                    <p className="legend">Index view of animals</p>
                 </div>
                 <div>
                     <img src={ShowImage} alt='show' />
-                    <p className="legend">Show view of boat</p>
+                    <p className="legend">Show view of animal</p>
                 </div>
                 <div>
                     <img src={ShowImage2} alt='show2' />
-                    <p className="legend">Show view of boat 2</p>
+                    <p className="legend">Show view of animal with extra info and map</p>
                 </div>
                 <div>
-                    <img src={AddImage} alt='add boat' />
-                    <p className="legend">Add boat</p>
+                    <img src={AddImage} alt='add animal' />
+                    <p className="legend">Add an animal form</p>
                 </div>
                 <div>
-                    <img src={MyAnimalsImage} alt='new booking' />
-                    <p className="legend">Show view of boat</p>
+                    <img src={MyAnimalsImage} alt='my animals' />
+                    <p className="legend">Requests screen for animals </p>
                 </div>
                 <div>
                     <img src={OffCanvasImage} alt='booking index' />
-                    <p className="legend">Show view of boat</p>
+                    <p className="legend">Off-canvas menu from the right side</p>
+                </div>
+                <div>
+                    <img src={HomepageImage} alt='homepage'/>
+                    <p className="legend">Homepage</p>
                 </div>
             </Carousel>
         );

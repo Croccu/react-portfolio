@@ -19,7 +19,7 @@ class BatcCarousel extends Component {
 
     render() {
         return (
-            <Carousel>
+            <Carousel infiniteLoop swipeable>
                 <div>
                     <img src={HomepageImage} alt='homepage'/>
                     <p className="legend">Homepage</p>
@@ -30,27 +30,27 @@ class BatcCarousel extends Component {
                 </div>
                 <div>
                     <img src={ShowImage} alt='show' />
-                    <p className="legend">Show view of boat</p>
+                    <p className="legend">Show view of boat with working carousel</p>
                 </div>
                 <div>
                     <img src={ShowImage2} alt='show2' />
-                    <p className="legend">Show view of boat 2</p>
+                    <p className="legend">Show view of boat with Description of boat and Mapbox map</p>
                 </div>
                 <div>
                     <img src={AddImage} alt='add boat' />
-                    <p className="legend">Add boat</p>
+                    <p className="legend">Add boat form</p>
                 </div>
                 <div>
                     <img src={BookNewImage} alt='new booking' />
-                    <p className="legend">Show view of boat</p>
+                    <p className="legend">Create a new booking for a boat</p>
                 </div>
                 <div>
                     <img src={BookIndexImage} alt='booking index' />
-                    <p className="legend">Show view of boat</p>
+                    <p className="legend">Index view of all created bookings</p>
                 </div>
                 <div>
                     <img src={BookShowImage} alt='booking show' />
-                    <p className="legend">Show view of boat</p>
+                    <p className="legend">Show view of booking</p>
                 </div>
                 <div>
                     <img src={LoginImage} alt='login' />

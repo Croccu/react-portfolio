@@ -17,19 +17,24 @@ const Portfolio = () => {
             {/* <img src={IMG1} alt="" /> */}
             <BatcCarousel />
           </div>
-          <h3>BatC</h3>
+          <br />
+          <h3><strong>BatC</strong> - A boat rental platform where it's possible to rent boats or other crafts for a day or more.</h3>
+          <br />
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel='noreferrer'>Github</a>
+            <a href="https://github.com/Croccu/batc" className='btn btn-primary' target='_blank' rel='noreferrer'>Github</a>
           </div>
         </article>
+        <br/>
         <article className='portfolio__item'>
           <div className='portfolio__item-image' id='carousel-container-adoptmwa'>
             {/* <img src={IMG2} alt="" /> */}
             <AdoptMwaCarousel />
           </div>
-          <h3>AdoptMwa</h3>
+          <br />
+          <h3><strong>AdoptMwa</strong> - A mobile platform for adopting street dogs and cats in Mauritius.</h3>
+          <br />
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel='noreferrer'>Github</a>
+            <a href="https://github.com/GeraldineFrancois/rails-adopt-mwa" className='btn btn-primary' target='_blank' rel='noreferrer'>Github</a>
           </div>        </article>
       </div>
     </section>
