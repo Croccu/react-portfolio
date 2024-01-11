@@ -25,7 +25,7 @@ const Portfolio = () => {
           </div>
         </article>
         <br/>
-        <article className='portfolio__item'>
+        <article className='portfolio__item' id="container-adoptmwa">
           <div className='portfolio__item-image' id='carousel-container-adoptmwa'>
             {/* <img src={IMG2} alt="" /> */}
             <AdoptMwaCarousel />

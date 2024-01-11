@@ -34,6 +34,24 @@
 
 /* ----------------- MEDIA QUERIES ------------------- */
 
+@media screen and (min-width: 1920px) {
+  .portfolio__item {
+    height: 74rem;
+  }
+
+  .portfolio__item-image {
+    height: 61rem;
+  }
+
+  #container-adoptmwa {
+    height: 88rem;
+  }
+
+  #carousel-container-adoptmwa {
+    height: 76rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .portfolio__container {
     grid-template-columns: 1fr;

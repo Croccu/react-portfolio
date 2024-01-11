@@ -74,6 +74,24 @@ header {
 
 /* ----------------- Media Queries ------------------ */
 
+@media screen and (min-width: 1920px) {
+  .me {
+    width: 40rem;
+    height: 56rem;
+    position: absolute;
+    left: calc(50% - 19.5rem);
+    border-radius: 22rem 22rem 0 0;
+  }
+
+  .me img {
+    width: 180%;
+    height: 180%;
+    position: absolute;
+    left: -11.5rem;
+    top: -14rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
