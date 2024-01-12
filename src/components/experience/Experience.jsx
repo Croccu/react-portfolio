@@ -45,6 +45,13 @@ const Experience = () => {
               <PiSealCheckFill className="experience__details-icon"/>
               <div>
                 <h4>React</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <PiSealCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Vue</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
@@ -64,7 +71,7 @@ const Experience = () => {
             <article className='experience__details'>
               <PiSealCheckFill className="experience__details-icon"/>
               <div>
-                <h4>PostgreSQL</h4>
+                <h4>SQL</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>

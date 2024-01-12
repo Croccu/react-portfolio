@@ -34,21 +34,39 @@
 
 /* ----------------- MEDIA QUERIES ------------------- */
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2560px) {
   .portfolio__item {
-    height: 74rem;
+    height: 79rem;
   }
 
   .portfolio__item-image {
-    height: 61rem;
+    height: 67rem;
   }
 
   #container-adoptmwa {
-    height: 88rem;
+    height: 96rem;
   }
 
   #carousel-container-adoptmwa {
-    height: 76rem;
+    height: 84rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .portfolio__item {
+    height: 62rem;
+  }
+
+  .portfolio__item-image {
+    height: 50rem;
+  }
+
+  #container-adoptmwa {
+    height: 74rem;
+  }
+
+  #carousel-container-adoptmwa {
+    height: 62rem;
   }
 }
 
