@@ -18,7 +18,7 @@ class AdoptMwaCarousel extends Component {
 
     render() {
         return (
-            <Carousel infiniteLoop centerMode centerSlidePercentage={33} swipeable >
+            <Carousel infiniteLoop centerMode centerSlidePercentage={33} swipeable autoPlay>
                 <div>
                     <img src={IndexImage} alt='index' />
                     <p className="legend">Index view of animals</p>

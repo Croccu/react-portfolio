@@ -19,7 +19,7 @@ class BatcCarousel extends Component {
 
     render() {
         return (
-            <Carousel infiniteLoop swipeable>
+            <Carousel infiniteLoop swipeable autoPlay>
                 <div>
                     <img src={HomepageImage} alt='homepage'/>
                     <p className="legend">Homepage</p>
